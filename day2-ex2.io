@@ -1,4 +1,4 @@
-// io - day 2, ex 2
+// Io - day 2, ex 2
 fib := method(n, 
   if(n > 2, return fib(n - 2) + fib(n - 1))
   if(n > 0, return 1)

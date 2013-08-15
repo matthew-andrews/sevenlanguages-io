@@ -1,4 +1,4 @@
-// io - day 2, ex 3 and 4
+// Io - day 2, ex 3 and 4
 
 List sum := method(
   o := 0
