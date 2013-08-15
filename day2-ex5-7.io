@@ -24,9 +24,7 @@ Matrix serialize := method(
   )
   o
 )
-Matrix print := method(
-  self serialize print
-)
+Matrix print := method(self serialize print)
 Matrix transpose := method(
   o := dim(self at(0) size, self size)
   self foreach(x, vx,
